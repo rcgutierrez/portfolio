@@ -13,13 +13,15 @@ class Project extends Component {
   }
 
   render(){
+    let link = this.props.project[4] ? <h2><a href={this.props.project[4]} target="_blank">{this.state.title}</a></h2>: <h2>{this.state.title}</h2>;
     return(
       <article className="project-article">
         <div className="project-img">
           {this.state.image}
+          <p className="subscript">(Click above to visit project GitHub Repository)</p>
         </div>
         <div className="project-info">
-          <h2>{this.state.title}</h2>
+          {link}
           <p><em><strong>Description:</strong></em></p>
           <p>{this.state.description}</p>
           <p><em><strong>Coming Up:</strong></em></p>
