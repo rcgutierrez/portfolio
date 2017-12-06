@@ -4,6 +4,7 @@ import Contact from './Components/Contact';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Projects from './Components/Projects';
+import NotFound from './Components/NotFound';
 import {
   BrowserRouter as Router,
   Route,
@@ -32,6 +33,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/projects" component={Projects} />
               <Route path="/contact" component={Contact} />
+              <Route path="/*" component={NotFound} />
             </Switch>
 
           </div>
