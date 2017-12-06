@@ -4,7 +4,7 @@ const entries = [
     "Student",
     "09.2017-12.2017",
     "i attended this full-time course to change my life. This 9-5 class schedule for 3 months was a grind, but it was also a rewarding and enriching experience. We went over topics ranging starting from front languages, version control management, frameworks, object-oriented programming, setting up api calls, and more.",
-    "skills learned: react.js, node.js, mongoose, git, jquery, group teamwork",
+    "skills learned: react.js, node.js, mongoose, git, ajax, group teamwork",
     "Austin, TX"
   ],
   [
