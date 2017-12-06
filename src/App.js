@@ -3,7 +3,6 @@ import './App.css';
 import Contact from './Components/Contact';
 import Header from './Components/Header';
 import Home from './Components/Home';
-import About from './Components/About';
 import Projects from './Components/Projects';
 import {
   BrowserRouter as Router,
@@ -23,9 +22,8 @@ class App extends Component {
               <Header />
               <nav className="tabs">
                 <NavLink exact to="/">Home</NavLink>{'   '}
-                <NavLink to="/projects">Projects</NavLink>{'   '}
-                <NavLink to="/about">About</NavLink>{'   '}
-                <NavLink to="/contact">Contact</NavLink>{'   '}
+                <NavLink exact to="/projects">Projects</NavLink>{'   '}
+                <NavLink exact to="/contact">Contact</NavLink>{'   '}
               </nav>
 
             </div>
@@ -34,7 +32,6 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/projects" component={Projects} />
               <Route path="/contact" component={Contact} />
-              <Route path="/about" component={About} />
             </Switch>
 
           </div>

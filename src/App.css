@@ -8,7 +8,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-height: 97vh;
 }
 
 .container {
@@ -30,7 +29,7 @@ header {
 
 section {
   padding: 1vh .5vw;
-  max-height: 100%;
+  max-height: 90vh;
 }
 
 h1 {
@@ -184,4 +183,42 @@ button {
 
 .project-info {
   padding: 10vh 1.5vw;
+}
+
+/*Contact*/
+/*****************************************************************************/
+
+.contact-section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  max-height: 80vh;
+  overflow: scroll;
+}
+
+.contact-title {
+  font-size: 3rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin: 4vh 0;
+}
+
+.profiles img {
+  max-width: 45vw;
+  max-height: 45vh;
+}
+
+.profile a {
+  color: black;
+  font-size: 4rem;
+  letter-spacing: .5vw;
+  text-decoration: none;
+}
+
+.profile a:hover {
+  color: rgba(221, 17, 42, .7);
 }
