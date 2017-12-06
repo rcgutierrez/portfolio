@@ -20,7 +20,7 @@ class Entry extends Component {
         <h2>{this.state.title}</h2>
         <h5>{this.state.role}</h5>
         <p className="entry-info">{this.state.descr}</p>
-        <p className="entry-skills">skills learned: {this.state.skills}</p>
+        <p className="entry-skills">{this.state.skills}</p>
         <br />
         <h5>{this.state.location}</h5>
         <h5>{this.state.time}</h5>
