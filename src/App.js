@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import About from './Components/About';
 import Contact from './Components/Contact';
 import Header from './Components/Header';
 import Home from './Components/Home';
@@ -24,6 +25,7 @@ class App extends Component {
               <nav className="tabs">
                 <NavLink exact to="/">Home</NavLink>{'   '}
                 <NavLink exact to="/projects">Projects</NavLink>{'   '}
+                <NavLink exact to="/about">About</NavLink>{'   '}
                 <NavLink exact to="/contact">Contact</NavLink>{'   '}
               </nav>
 
@@ -32,6 +34,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/projects" component={Projects} />
+              <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
               <Route path="/*" component={NotFound} />
             </Switch>
