@@ -30,7 +30,7 @@ class Home extends Component {
           <article>
             <h2 className="welcome">{this.state.welcome}!</h2>
             <p className="subscript" style={{visibility: this.state.subscriptShowing ? "visible" : "hidden"}}>(Welcome!)</p>
-            <p className="tags">ATX | Full-Stack Developer | General Enthusiast</p>
+            <p className="tags">ATX | Full-Stack Developer | React.js and Music Enthusiast</p>
             <div className="skills">{skillsArr}</div>
           </article>
         </div>

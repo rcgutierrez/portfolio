@@ -5,7 +5,7 @@ import resume from '../Images/Raul Gutierrez Resume.pdf';
 
 class About extends Component {
   render(){
-    let entryArr = entries.map((entry, index)=> <Entry entry={entry} />)
+    let entryArr = entries.map((entry, index)=> <Entry entry={entry} key={index} />)
     return(
       <section className="about-section">
         <p className="subscript">
