@@ -13,7 +13,7 @@ class Project extends Component {
   }
 
   render(){
-    let link = this.props.project[4] ? <h2><a href={this.props.project[4]} target="_blank">{this.state.title}</a></h2>: <h2>{this.state.title}</h2>;
+    let link = this.props.project[4] ? <h2><a href={this.props.project[4]} target="_blank" rel="noopener noreferrer">{this.state.title}</a></h2> : <h2>{this.state.title}</h2>;
     return(
       <article className="project-article">
         <div className="project-img">

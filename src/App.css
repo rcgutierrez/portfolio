@@ -86,6 +86,7 @@ button {
   max-width: 75vw;
   max-height: 75vh;
   border-radius: 24px 2px;
+  box-shadow: 0 0 20px black;
 }
 
 .home-section .content {
@@ -131,6 +132,11 @@ button {
 
 .skills span {
   padding: 0 1vh;
+}
+
+.skills a {
+  text-decoration: none;
+  color: white;
 }
 
 .skills button {
@@ -209,13 +215,17 @@ button {
 }
 
 .profiles img {
-  max-width: 45vw;
-  max-height: 45vh;
+  max-width: 20vw;
+  max-height: 20vh;
+}
+
+.profile h2 {
+  margin-top: 2.75vh;
 }
 
 .profile a {
   color: black;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: .5vw;
   text-decoration: none;
 }
