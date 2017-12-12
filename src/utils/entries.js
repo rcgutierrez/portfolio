@@ -20,7 +20,7 @@ const entries = [
     "A/R Coordinator | A/P Support | Billing Specialist",
     "12.2014-09.2016",
     "As Accounts Receivable Coordinator, I handled the incoming remittences for a nationwide company that provided independent medical examinations. These payments had to be applied to the correct invoices and subsequently, as the Accounts Payable Support, I sent payments to the medical providers for their services.",
-    "Skills learned: Microsoft Outlook, Microsoft Exel, Microsoft ccess, Microsoft CDN",
+    "Skills learned: Microsoft Outlook, Microsoft Exel, Microsoft Access, Microsoft CDN",
     "Seattle, WA"
   ],
   [
