@@ -337,6 +337,10 @@ button {
     align-items: center;
   }
 
+  .home-section img {
+    margin-bottom: 4vh;
+  }
+
   .tags {
     margin-top: 0;
   }
