@@ -337,6 +337,10 @@ button {
     align-items: center;
   }
 
+  .tags {
+    margin-top: 0;
+  }
+
   .project-article {
     text-align: center;
   }
