@@ -9,7 +9,7 @@ const projects = [
     <a href="https://github.com/rcgutierrez/TempVest/tree/master/tempvest" target="_blank" rel="noopener noreferrer"><img src={tempvest} alt="Tempvest Front Page" /></a>,
     "Live in an area where the weather vastly varies throughout the day and want to know how you should dress accordingly? Tempvest gives you a layout of clothing options for what you'll need when weather conditions change or the temperature differs a significant amount.",
     "I would like to improve this project by correcting the algorithm for deleting superfluous outfit 'cards' at lower temperatures.",
-    "https://temp-vest.firebaseapp.com/"
+    false
   ],
   [
     "Kollaboscope",
@@ -23,7 +23,7 @@ const projects = [
     <a href="https://github.com/rcgutierrez/nommad/tree/master/nommad" target="_blank" rel="noopener noreferrer"><img src={nommad} alt="Nommad Front Page" /></a>,
     "You can use Nommad to find food trucks near you as fast as possible. The axios call to Yelp filters to only return food trucks, easing your search by eliminating the need to enter in the extra parameters in other search sites.",
     "Cosmetic changes will be made to the markers that appear when the food truck icons are pressed, as well as tying the restarant tiles ",
-    "https://nommad-app.firebaseapp.com/"
+    false
   ]
 ]
 
